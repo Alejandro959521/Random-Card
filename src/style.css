@@ -1,1 +1,42 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  padding: 0 auto;
+  margin: 0 auto;
+  height: 100vh;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  height: 400px;
+  width: 260px;
+  border-radius: 20px;
+}
+.top {
+  display: flex;
+  justify-content: left;
+  padding: 0 auto;
+  margin: 0 auto;
+  height: 33%;
+  font-size: 100px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 auto;
+  margin: 0 auto;
+  height: 33%;
+  font-size: 100px;
+}
+.bottom {
+  display: flex;
+  justify-content: right;
+  padding: 0 auto;
+  margin: 0 auto;
+  height: 33%;
+  font-size: 100px;
+  align-items: flex-end;
+}
